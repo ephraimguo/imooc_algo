@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="426d61e7-b081-4be1-90f8-2b5f4bbc4dbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/imooc/algo/mergesort/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/algo/mergesort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/algo/mergesort/MergeSortInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/sorts/heapsort/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/sorts/heapsort/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/sorts/quicksort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/binarysearch/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc/algo/helper/SortTestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/algo/sorts/helper/SortTestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc/algo/insertionsort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/algo/sorts/insertionsort/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc/algo/insertionsort/OptimizeInsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/algo/sorts/insertionsort/OptimizeInsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc/algo/mergesort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/algo/sorts/mergesort/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc/algo/mergesort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/algo/sorts/mergesort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc/algo/mergesort/MergeSortInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/algo/sorts/mergesort/MergeSortInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc/algo/selectionsort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/algo/sorts/selectionsort/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc/algo/selectionsort/SelectionSortComparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/algo/sorts/selectionsort/SelectionSortComparable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc/algo/selectionsort/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/algo/sorts/selectionsort/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +51,39 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imooc.algo.insertionsort.InsertionSort" />
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="imooc.algo.structures.binarysearch.BinarySearch" />
       <module name="imooc_algo_bobo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="imooc.algo.insertionsort.*" />
+          <option name="PATTERN" value="imooc.algo.structures.binarysearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="imooc.algo.sorts.heapsort.Main" />
+      <module name="imooc_algo_bobo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="imooc.algo.sorts.heapsort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="imooc.algo.sorts.heapsort.MaxHeap" />
+      <module name="imooc_algo_bobo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="imooc.algo.sorts.heapsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,11 +92,11 @@
       </method>
     </configuration>
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imooc.algo.mergesort.MergeSort" />
+      <option name="MAIN_CLASS_NAME" value="imooc.algo.sorts.mergesort.MergeSort" />
       <module name="imooc_algo_bobo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="imooc.algo.mergesort.*" />
+          <option name="PATTERN" value="imooc.algo.sorts.mergesort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,51 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imooc.algo.mergesort.MergeSortInt" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="imooc.algo.sorts.quicksort.QuickSort" />
       <module name="imooc_algo_bobo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="imooc.algo.mergesort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OptimizeInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imooc.algo.insertionsort.OptimizeInsertionSort" />
-      <module name="imooc_algo_bobo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="imooc.algo.insertionsort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectionSortComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imooc.algo.selectionsort.selecitonsort.SelectionSortComparable" />
-      <module name="imooc_algo_bobo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="imooc.algo.selectionsort.selecitonsort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectionSortComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imooc.algo.selectionsort.SelectionSortComparable" />
-      <module name="imooc_algo_bobo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="imooc.algo.helper.*" />
+          <option name="PATTERN" value="imooc.algo.sorts.quicksort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MaxHeap" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.MergeSortInt" />
-        <item itemvalue="Application.OptimizeInsertionSort" />
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.SelectionSortComparable" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +138,9 @@
       <option name="presentableId" value="Default" />
       <updated>1584357446444</updated>
       <workItem from="1584357448134" duration="14061000" />
-      <workItem from="1584417031513" duration="12471000" />
+      <workItem from="1584417031513" duration="20202000" />
+      <workItem from="1584510370281" duration="11165000" />
+      <workItem from="1584540682299" duration="7996000" />
     </task>
     <task id="LOCAL-00001" summary="[MS] Insertion sort and selection sort cleared">
       <created>1584382267389</created>
@@ -150,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584382267389</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[MS] merge sort done">
+      <created>1584454048705</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584454048705</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,48 +164,65 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[MS] Insertion sort and selection sort cleared" />
-    <option name="LAST_COMMIT_MESSAGE" value="[MS] Insertion sort and selection sort cleared" />
+    <MESSAGE value="[MS] merge sort done" />
+    <option name="LAST_COMMIT_MESSAGE" value="[MS] merge sort done" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="705" y="224" key="CommitChangelistDialog2" timestamp="1584382267251">
+    <state x="819" y="419" key="#com.intellij.ide.util.MemberChooser" timestamp="1584511480753">
       <screen x="0" y="23" width="2560" height="1373" />
     </state>
-    <state x="705" y="224" key="CommitChangelistDialog2/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584382267251" />
-    <state width="669" height="1223" key="GridCell.Tab.0.bottom" timestamp="1584453975658">
+    <state x="819" y="419" key="#com.intellij.ide.util.MemberChooser/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584511480753" />
+    <state x="1070" y="255" key="CommitChangelistDialog2" timestamp="1584454048541">
       <screen x="0" y="23" width="2560" height="1373" />
     </state>
-    <state width="669" height="1223" key="GridCell.Tab.0.bottom/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584453975658" />
-    <state width="669" height="1223" key="GridCell.Tab.0.center" timestamp="1584453975656">
+    <state x="1070" y="255" key="CommitChangelistDialog2/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584454048541" />
+    <state width="811" height="941" key="GridCell.Tab.0.bottom" timestamp="1584550335363">
+      <screen x="0" y="23" width="2048" height="1090" />
+    </state>
+    <state width="811" height="941" key="GridCell.Tab.0.bottom/-1920.160.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584550335363" />
+    <state width="358" height="940" key="GridCell.Tab.0.bottom/-1920.563.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584545122170" />
+    <state width="598" height="1224" key="GridCell.Tab.0.bottom/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584542461679" />
+    <state width="811" height="941" key="GridCell.Tab.0.center" timestamp="1584550335362">
+      <screen x="0" y="23" width="2048" height="1090" />
+    </state>
+    <state width="811" height="941" key="GridCell.Tab.0.center/-1920.160.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584550335362" />
+    <state width="358" height="940" key="GridCell.Tab.0.center/-1920.563.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584545122169" />
+    <state width="598" height="1224" key="GridCell.Tab.0.center/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584542461679" />
+    <state width="811" height="941" key="GridCell.Tab.0.left" timestamp="1584550335362">
+      <screen x="0" y="23" width="2048" height="1090" />
+    </state>
+    <state width="811" height="941" key="GridCell.Tab.0.left/-1920.160.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584550335362" />
+    <state width="358" height="940" key="GridCell.Tab.0.left/-1920.563.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584545122168" />
+    <state width="598" height="1224" key="GridCell.Tab.0.left/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584542461678" />
+    <state width="811" height="941" key="GridCell.Tab.0.right" timestamp="1584550335362">
+      <screen x="0" y="23" width="2048" height="1090" />
+    </state>
+    <state width="811" height="941" key="GridCell.Tab.0.right/-1920.160.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584550335362" />
+    <state width="358" height="940" key="GridCell.Tab.0.right/-1920.563.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584545122170" />
+    <state width="598" height="1224" key="GridCell.Tab.0.right/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584542461679" />
+    <state width="2006" height="243" key="GridCell.Tab.1.bottom" timestamp="1584549990387">
+      <screen x="0" y="23" width="2048" height="1090" />
+    </state>
+    <state width="2006" height="243" key="GridCell.Tab.1.bottom/-1920.160.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584549990387" />
+    <state width="2518" height="241" key="GridCell.Tab.1.bottom/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584540244689" />
+    <state width="2006" height="243" key="GridCell.Tab.1.center" timestamp="1584549990387">
+      <screen x="0" y="23" width="2048" height="1090" />
+    </state>
+    <state width="2006" height="243" key="GridCell.Tab.1.center/-1920.160.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584549990387" />
+    <state width="2518" height="241" key="GridCell.Tab.1.center/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584540244688" />
+    <state width="2006" height="243" key="GridCell.Tab.1.left" timestamp="1584549990386">
+      <screen x="0" y="23" width="2048" height="1090" />
+    </state>
+    <state width="2006" height="243" key="GridCell.Tab.1.left/-1920.160.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584549990386" />
+    <state width="2518" height="241" key="GridCell.Tab.1.left/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584540244688" />
+    <state width="2006" height="243" key="GridCell.Tab.1.right" timestamp="1584549990387">
+      <screen x="0" y="23" width="2048" height="1090" />
+    </state>
+    <state width="2006" height="243" key="GridCell.Tab.1.right/-1920.160.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584549990387" />
+    <state width="2518" height="241" key="GridCell.Tab.1.right/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584540244688" />
+    <state x="724" y="445" key="Vcs.Push.Dialog.v2" timestamp="1584454049915">
       <screen x="0" y="23" width="2560" height="1373" />
     </state>
-    <state width="669" height="1223" key="GridCell.Tab.0.center/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584453975656" />
-    <state width="669" height="1223" key="GridCell.Tab.0.left" timestamp="1584453975655">
-      <screen x="0" y="23" width="2560" height="1373" />
-    </state>
-    <state width="669" height="1223" key="GridCell.Tab.0.left/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584453975655" />
-    <state width="669" height="1223" key="GridCell.Tab.0.right" timestamp="1584453975657">
-      <screen x="0" y="23" width="2560" height="1373" />
-    </state>
-    <state width="669" height="1223" key="GridCell.Tab.0.right/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584453975657" />
-    <state width="1828" height="249" key="GridCell.Tab.1.bottom" timestamp="1584435363964">
-      <screen x="0" y="23" width="2560" height="1373" />
-    </state>
-    <state width="1828" height="249" key="GridCell.Tab.1.bottom/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584435363964" />
-    <state width="1828" height="249" key="GridCell.Tab.1.center" timestamp="1584435363963">
-      <screen x="0" y="23" width="2560" height="1373" />
-    </state>
-    <state width="1828" height="249" key="GridCell.Tab.1.center/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584435363963" />
-    <state width="1828" height="249" key="GridCell.Tab.1.left" timestamp="1584435363963">
-      <screen x="0" y="23" width="2560" height="1373" />
-    </state>
-    <state width="1828" height="249" key="GridCell.Tab.1.left/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584435363963" />
-    <state width="1828" height="249" key="GridCell.Tab.1.right" timestamp="1584435363963">
-      <screen x="0" y="23" width="2560" height="1373" />
-    </state>
-    <state width="1828" height="249" key="GridCell.Tab.1.right/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584435363963" />
-    <state x="724" y="445" key="Vcs.Push.Dialog.v2" timestamp="1584382268944">
-      <screen x="0" y="23" width="2560" height="1373" />
-    </state>
-    <state x="724" y="445" key="Vcs.Push.Dialog.v2/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584382268944" />
+    <state x="724" y="445" key="Vcs.Push.Dialog.v2/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584454049915" />
   </component>
 </project>

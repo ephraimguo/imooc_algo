@@ -1,6 +1,6 @@
-package imooc.algo.insertionsort;
+package imooc.algo.sorts.insertionsort;
 
-import imooc.algo.helper.SortTestHelper;
+import imooc.algo.sorts.helper.SortTestHelper;
 
 public class OptimizeInsertionSort {
 
@@ -12,9 +12,9 @@ public class OptimizeInsertionSort {
             arr2[i] = arr[i];
         }
 
-        SortTestHelper.testSort("imooc.algo.selectionsort.SelectionSortComparable", arr);
+        SortTestHelper.testSort("imooc.algo.sorts.selectionsort.SelectionSortComparable", arr);
         System.out.println("=================");
-        SortTestHelper.testSort("imooc.algo.insertionsort.OptimizeInsertionSort", arr2);
+        SortTestHelper.testSort("imooc.algo.sorts.insertionsort.OptimizeInsertionSort", arr2);
 
         for (Integer ar: arr
              ) {

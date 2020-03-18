@@ -1,4 +1,4 @@
-package imooc.algo.selectionsort;
+package imooc.algo.sorts.selectionsort;
 
 /**
  *

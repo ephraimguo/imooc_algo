@@ -1,4 +1,4 @@
-package imooc.algo.helper;
+package imooc.algo.sorts.helper;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

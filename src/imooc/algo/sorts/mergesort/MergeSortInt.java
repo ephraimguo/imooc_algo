@@ -1,6 +1,4 @@
-package imooc.algo.mergesort;
-
-import imooc.algo.helper.SortTestHelper;
+package imooc.algo.sorts.mergesort;
 
 import java.util.Arrays;
 

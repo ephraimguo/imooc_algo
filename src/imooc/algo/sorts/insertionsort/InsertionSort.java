@@ -1,14 +1,13 @@
-package imooc.algo.insertionsort;
+package imooc.algo.sorts.insertionsort;
 
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.CompareGenerator;
-import imooc.algo.helper.SortTestHelper;
+import imooc.algo.sorts.helper.SortTestHelper;
 
 public class InsertionSort {
 
     public static void main(String[] args) {
         Integer[] arr = SortTestHelper.generateRandoArray(10000, 0, 1000);
 
-        SortTestHelper.testSort("imooc.algo.insertionsort.InsertionSort", arr);
+        SortTestHelper.testSort("imooc.algo.sorts.insertionsort.InsertionSort", arr);
 
         for (Integer ar: arr
              ) {

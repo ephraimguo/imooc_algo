@@ -1,6 +1,6 @@
-package imooc.algo.selectionsort;
+package imooc.algo.sorts.selectionsort;
 
-import imooc.algo.helper.SortTestHelper;
+import imooc.algo.sorts.helper.SortTestHelper;
 
 public class SelectionSortComparable {
 
@@ -52,7 +52,7 @@ public class SelectionSortComparable {
 
         Integer[] ax = SortTestHelper.generateRandoArray(10000, 0, 1000);
         // SortTestHelper.showArr(ax);
-        SortTestHelper.testSort("imooc.algo.selectionsort.SelectionSortComparable", ax);
+        SortTestHelper.testSort("imooc.algo.sorts.selectionsort.SelectionSortComparable", ax);
         SortTestHelper.showArr(ax);
 
     }

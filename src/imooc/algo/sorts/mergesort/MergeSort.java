@@ -1,6 +1,6 @@
-package imooc.algo.mergesort;
+package imooc.algo.sorts.mergesort;
 
-import imooc.algo.helper.SortTestHelper;
+import imooc.algo.sorts.helper.SortTestHelper;
 
 import java.util.Arrays;
 
@@ -12,8 +12,8 @@ public class MergeSort {
 
 //        SortTestHelper.showArr(aa);
 
-        SortTestHelper.testSort("imooc.algo.insertionsort.InsertionSort",aa);
-        SortTestHelper.testSort("imooc.algo.mergesort.MergeSort",aaa);
+        SortTestHelper.testSort("imooc.algo.sorts.insertionsort.InsertionSort",aa);
+        SortTestHelper.testSort("imooc.algo.sorts.mergesort.MergeSort",aaa);
 
 //        SortTestHelper.showArr(aa);
 
@@ -48,6 +48,11 @@ public class MergeSort {
         if (l >= r) {
             return;
         }
+
+        /*if (r - l <= 3) {
+            InsertionSort.sortIt(arr);
+            return;
+        }*/
 
         int mid = (l + r) / 2;
         sort(arr, l, mid);
