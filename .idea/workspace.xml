@@ -1,14 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="426d61e7-b081-4be1-90f8-2b5f4bbc4dbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/binarysearch/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/binarysearch/FileOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/binarysearch/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/binarysearch/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/binarysearch/PrintReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/binarysearch/bible.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/HereIsArray/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/HereIsArray/DynamicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/HereIsArray/GenericArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/HereIsArray/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/HereIsArray/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/LinkedList/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/LinkedList/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/LinkedList/img/delete-element.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/LinkedList/img/delete-ndoe-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/LinkedList/img/dummy-head.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/LinkedList/img/insert-element.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/LinkedList/img/linked-list-structure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/LinkedList/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/StackAndQueue/ArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/StackAndQueue/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/StackAndQueue/DynamicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/StackAndQueue/ImplementQueueByStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/StackAndQueue/LoopQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/StackAndQueue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/StackAndQueue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/StackAndQueue/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/StackAndQueue/ValidParenthness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/StackAndQueue/img/systemstack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/StackAndQueue/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/graph/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/graph/DenseGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/graph/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/graph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/graph/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/graph/ReadGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/graph/SparseGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/graph/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/graph/testG1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/graph/testG2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/helper/UnionFindTestHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/test/Byte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/test/Sol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/unionfind/UnionFind1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/unionfind/UnionFind2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/structures/unionfind/UnionFind3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc/algo/structures/binarysearch/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/algo/structures/binarysearch/BST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +78,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -38,28 +94,40 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/imooc/algo/structures/binarysearch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/imooc/algo/structures/graph" />
       <recent name="$PROJECT_DIR$/src/imooc/algo/structures/binarysearch" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="imooc.algo.datastructure.StackAndQueue" />
+      <recent name="imooc.algo.datastructure.HereIsArray" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/imooc/algo/datastructure/LinkedList/img" />
+      <recent name="$PROJECT_DIR$/src/imooc/algo/datastructure/StackAndQueue/img" />
+      <recent name="$PROJECT_DIR$/src/imooc/algo/datastructure/StackAndQueue" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main2">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imooc.algo.structures.binarysearch.BinarySearch" />
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="ImplementQueueByStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="imooc.algo.datastructure.StackAndQueue.ImplementQueueByStack" />
       <module name="imooc_algo_bobo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="imooc.algo.structures.binarysearch.*" />
+          <option name="PATTERN" value="imooc.algo.datastructure.StackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,11 +136,24 @@
       </method>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imooc.algo.structures.binarysearch.Main" />
+      <option name="MAIN_CLASS_NAME" value="imooc.algo.datastructure.HereIsArray.Main" />
       <module name="imooc_algo_bobo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="imooc.algo.structures.binarysearch.*" />
+          <option name="PATTERN" value="imooc.algo.datastructure.HereIsArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="imooc.algo.datastructure.LinkedList.Main" />
+      <module name="imooc_algo_bobo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="imooc.algo.datastructure.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,11 +162,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imooc.algo.sorts.heapsort.Main" />
+      <option name="MAIN_CLASS_NAME" value="imooc.algo.datastructure.StackAndQueue.Main" />
       <module name="imooc_algo_bobo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="imooc.algo.sorts.heapsort.*" />
+          <option name="PATTERN" value="imooc.algo.datastructure.StackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imooc.algo.structures.binarysearch.Main2" />
+    <configuration name="ValidParenthness" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="imooc.algo.datastructure.StackAndQueue.ValidParenthness" />
       <module name="imooc_algo_bobo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="imooc.algo.structures.binarysearch.*" />
+          <option name="PATTERN" value="imooc.algo.datastructure.StackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,29 +187,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imooc.algo.structures.binarysearch.PrintReverse" />
-      <module name="imooc_algo_bobo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="imooc.algo.structures.binarysearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="join.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/imooc/algo/join.js" working-dir="$PROJECT_DIR$/src/imooc/algo">
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.PrintReverse" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Node.js.join.js" />
+        <item itemvalue="Application.ImplementQueueByStack" />
+        <item itemvalue="Application.ValidParenthness" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -145,7 +228,11 @@
       <workItem from="1584540682299" duration="8555000" />
       <workItem from="1584630812910" duration="7392000" />
       <workItem from="1584687194878" duration="3853000" />
-      <workItem from="1584709824188" duration="7060000" />
+      <workItem from="1584709824188" duration="31121000" />
+      <workItem from="1585481565233" duration="1200000" />
+      <workItem from="1598711794167" duration="10371000" />
+      <workItem from="1598972815890" duration="5386000" />
+      <workItem from="1599066387611" duration="22371000" />
     </task>
     <task id="LOCAL-00001" summary="[MS] Insertion sort and selection sort cleared">
       <created>1584382267389</created>
@@ -168,97 +255,104 @@
       <option name="project" value="LOCAL" />
       <updated>1584550555426</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[MS] bst depth first search">
+      <created>1584720092531</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584720092531</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[MS] Insertion sort and selection sort cleared" />
     <MESSAGE value="[MS] merge sort done" />
     <MESSAGE value="[MS] start bst" />
-    <option name="LAST_COMMIT_MESSAGE" value="[MS] start bst" />
+    <MESSAGE value="[MS] bst depth first search" />
+    <option name="LAST_COMMIT_MESSAGE" value="[MS] bst depth first search" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="819" y="419" key="#com.intellij.ide.util.MemberChooser" timestamp="1584511480753">
-      <screen x="0" y="23" width="2560" height="1373" />
+    <state x="1665" y="416" key="#com.intellij.ide.util.MemberChooser" timestamp="1599406026377">
+      <screen x="0" y="23" width="2560" height="1382" />
     </state>
-    <state x="819" y="419" key="#com.intellij.ide.util.MemberChooser/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584511480753" />
-    <state x="414" y="58" key="CommitChangelistDialog2" timestamp="1584550555245">
-      <screen x="0" y="23" width="2048" height="1090" />
+    <state x="1665" y="416" key="#com.intellij.ide.util.MemberChooser/-1920.209.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598725131213" />
+    <state x="1665" y="416" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1382@0.23.2560.1382" timestamp="1599406026377" />
+    <state x="1534" y="455" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598972728283">
+      <screen x="0" y="23" width="2560" height="1382" />
     </state>
-    <state x="414" y="58" key="CommitChangelistDialog2/-1920.160.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584550555245" />
-    <state x="1070" y="255" key="CommitChangelistDialog2/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584454048541" />
-    <state width="374" height="1228" key="GridCell.Tab.0.bottom" timestamp="1584719950504">
-      <screen x="0" y="23" width="2560" height="1378" />
+    <state x="1534" y="455" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.2560.1382@0.23.2560.1382" timestamp="1598972728283" />
+    <state x="1612" y="466" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599406736408">
+      <screen x="0" y="23" width="2560" height="1382" />
     </state>
-    <state width="2006" height="243" key="GridCell.Tab.0.bottom/-1920.160.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584583126739" />
-    <state width="374" height="1228" key="GridCell.Tab.0.bottom/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1584719950504" />
-    <state width="358" height="940" key="GridCell.Tab.0.bottom/-1920.563.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584545122170" />
-    <state width="598" height="1224" key="GridCell.Tab.0.bottom/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584542461679" />
-    <state width="623" height="1229" key="GridCell.Tab.0.bottom/0.23.2560.1378@0.23.2560.1378" timestamp="1584680137448" />
-    <state width="374" height="1228" key="GridCell.Tab.0.center" timestamp="1584719950503">
-      <screen x="0" y="23" width="2560" height="1378" />
+    <state x="1612" y="466" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1382@0.23.2560.1382" timestamp="1599406736408" />
+    <state width="1311" height="283" key="GridCell.Tab.0.bottom" timestamp="1599755033992">
+      <screen x="0" y="23" width="2560" height="1382" />
     </state>
-    <state width="2006" height="243" key="GridCell.Tab.0.center/-1920.160.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584583126738" />
-    <state width="374" height="1228" key="GridCell.Tab.0.center/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1584719950503" />
-    <state width="358" height="940" key="GridCell.Tab.0.center/-1920.563.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584545122169" />
-    <state width="598" height="1224" key="GridCell.Tab.0.center/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584542461679" />
-    <state width="623" height="1229" key="GridCell.Tab.0.center/0.23.2560.1378@0.23.2560.1378" timestamp="1584680137447" />
-    <state width="374" height="1228" key="GridCell.Tab.0.left" timestamp="1584719950503">
-      <screen x="0" y="23" width="2560" height="1378" />
+    <state width="1720" height="320" key="GridCell.Tab.0.bottom/-1920.206.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598977782021" />
+    <state width="1386" height="333" key="GridCell.Tab.0.bottom/-1920.209.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598725487176" />
+    <state width="1311" height="283" key="GridCell.Tab.0.bottom/0.23.2560.1382@0.23.2560.1382" timestamp="1599755033992" />
+    <state width="1311" height="283" key="GridCell.Tab.0.center" timestamp="1599755033991">
+      <screen x="0" y="23" width="2560" height="1382" />
     </state>
-    <state width="2006" height="243" key="GridCell.Tab.0.left/-1920.160.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584583126737" />
-    <state width="374" height="1228" key="GridCell.Tab.0.left/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1584719950503" />
-    <state width="358" height="940" key="GridCell.Tab.0.left/-1920.563.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584545122168" />
-    <state width="598" height="1224" key="GridCell.Tab.0.left/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584542461678" />
-    <state width="623" height="1229" key="GridCell.Tab.0.left/0.23.2560.1378@0.23.2560.1378" timestamp="1584680137447" />
-    <state width="374" height="1228" key="GridCell.Tab.0.right" timestamp="1584719950504">
-      <screen x="0" y="23" width="2560" height="1378" />
+    <state width="1720" height="320" key="GridCell.Tab.0.center/-1920.206.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598977782020" />
+    <state width="1386" height="333" key="GridCell.Tab.0.center/-1920.209.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598725487175" />
+    <state width="1311" height="283" key="GridCell.Tab.0.center/0.23.2560.1382@0.23.2560.1382" timestamp="1599755033991" />
+    <state width="1311" height="283" key="GridCell.Tab.0.left" timestamp="1599755033991">
+      <screen x="0" y="23" width="2560" height="1382" />
     </state>
-    <state width="2006" height="243" key="GridCell.Tab.0.right/-1920.160.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584583126738" />
-    <state width="374" height="1228" key="GridCell.Tab.0.right/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1584719950504" />
-    <state width="358" height="940" key="GridCell.Tab.0.right/-1920.563.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584545122170" />
-    <state width="598" height="1224" key="GridCell.Tab.0.right/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584542461679" />
-    <state width="623" height="1229" key="GridCell.Tab.0.right/0.23.2560.1378@0.23.2560.1378" timestamp="1584680137448" />
-    <state width="2480" height="314" key="GridCell.Tab.1.bottom" timestamp="1584718811410">
-      <screen x="0" y="23" width="2560" height="1378" />
+    <state width="1720" height="320" key="GridCell.Tab.0.left/-1920.206.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598977782020" />
+    <state width="1386" height="333" key="GridCell.Tab.0.left/-1920.209.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598725487174" />
+    <state width="1311" height="283" key="GridCell.Tab.0.left/0.23.2560.1382@0.23.2560.1382" timestamp="1599755033991" />
+    <state width="1311" height="283" key="GridCell.Tab.0.right" timestamp="1599755033992">
+      <screen x="0" y="23" width="2560" height="1382" />
     </state>
-    <state width="2006" height="243" key="GridCell.Tab.1.bottom/-1920.160.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584583126740" />
-    <state width="2480" height="314" key="GridCell.Tab.1.bottom/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1584718811410" />
-    <state width="2518" height="241" key="GridCell.Tab.1.bottom/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584540244689" />
-    <state width="2480" height="314" key="GridCell.Tab.1.center" timestamp="1584718811410">
-      <screen x="0" y="23" width="2560" height="1378" />
+    <state width="1720" height="320" key="GridCell.Tab.0.right/-1920.206.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598977782020" />
+    <state width="1386" height="333" key="GridCell.Tab.0.right/-1920.209.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598725487176" />
+    <state width="1311" height="283" key="GridCell.Tab.0.right/0.23.2560.1382@0.23.2560.1382" timestamp="1599755033992" />
+    <state width="1344" height="388" key="GridCell.Tab.1.bottom" timestamp="1599638419876">
+      <screen x="0" y="23" width="2560" height="1382" />
     </state>
-    <state width="2006" height="243" key="GridCell.Tab.1.center/-1920.160.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584583126739" />
-    <state width="2480" height="314" key="GridCell.Tab.1.center/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1584718811410" />
-    <state width="2518" height="241" key="GridCell.Tab.1.center/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584540244688" />
-    <state width="2480" height="314" key="GridCell.Tab.1.left" timestamp="1584718811410">
-      <screen x="0" y="23" width="2560" height="1378" />
+    <state width="1720" height="320" key="GridCell.Tab.1.bottom/-1920.206.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598977781882" />
+    <state width="1373" height="320" key="GridCell.Tab.1.bottom/-1920.209.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598716250362" />
+    <state width="1344" height="388" key="GridCell.Tab.1.bottom/0.23.2560.1382@0.23.2560.1382" timestamp="1599638419876" />
+    <state width="1344" height="388" key="GridCell.Tab.1.center" timestamp="1599638419875">
+      <screen x="0" y="23" width="2560" height="1382" />
     </state>
-    <state width="2006" height="243" key="GridCell.Tab.1.left/-1920.160.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584583126739" />
-    <state width="2480" height="314" key="GridCell.Tab.1.left/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1584718811410" />
-    <state width="2518" height="241" key="GridCell.Tab.1.left/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584540244688" />
-    <state width="2480" height="314" key="GridCell.Tab.1.right" timestamp="1584718811410">
-      <screen x="0" y="23" width="2560" height="1378" />
+    <state width="1720" height="320" key="GridCell.Tab.1.center/-1920.206.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598977781882" />
+    <state width="1373" height="320" key="GridCell.Tab.1.center/-1920.209.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598716250361" />
+    <state width="1344" height="388" key="GridCell.Tab.1.center/0.23.2560.1382@0.23.2560.1382" timestamp="1599638419875" />
+    <state width="1344" height="388" key="GridCell.Tab.1.left" timestamp="1599638419875">
+      <screen x="0" y="23" width="2560" height="1382" />
     </state>
-    <state width="2006" height="243" key="GridCell.Tab.1.right/-1920.160.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584583126740" />
-    <state width="2480" height="314" key="GridCell.Tab.1.right/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1584718811410" />
-    <state width="2518" height="241" key="GridCell.Tab.1.right/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584540244688" />
-    <state x="579" y="358" key="Vcs.Push.Dialog.v2" timestamp="1584550556769">
-      <screen x="0" y="23" width="2048" height="1090" />
+    <state width="1720" height="320" key="GridCell.Tab.1.left/-1920.206.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598977781881" />
+    <state width="1373" height="320" key="GridCell.Tab.1.left/-1920.209.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598716250361" />
+    <state width="1344" height="388" key="GridCell.Tab.1.left/0.23.2560.1382@0.23.2560.1382" timestamp="1599638419875" />
+    <state width="1344" height="388" key="GridCell.Tab.1.right" timestamp="1599638419875">
+      <screen x="0" y="23" width="2560" height="1382" />
     </state>
-    <state x="579" y="358" key="Vcs.Push.Dialog.v2/-1920.160.1920.1057/0.23.2048.1090@0.23.2048.1090" timestamp="1584550556769" />
-    <state x="724" y="445" key="Vcs.Push.Dialog.v2/-1920.563.1920.1057/0.23.2560.1373@0.23.2560.1373" timestamp="1584454049915" />
-    <state x="758" y="544" key="com.intellij.ide.util.TipDialog" timestamp="1584709824637">
-      <screen x="0" y="23" width="2560" height="1378" />
+    <state width="1720" height="320" key="GridCell.Tab.1.right/-1920.206.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598977781882" />
+    <state width="1373" height="320" key="GridCell.Tab.1.right/-1920.209.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598716250362" />
+    <state width="1344" height="388" key="GridCell.Tab.1.right/0.23.2560.1382@0.23.2560.1382" timestamp="1599638419875" />
+    <state x="802" y="451" width="596" height="522" key="find.popup" timestamp="1599114376520">
+      <screen x="0" y="23" width="2560" height="1382" />
     </state>
-    <state x="758" y="544" key="com.intellij.ide.util.TipDialog/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1584709824637" />
-    <state x="372" y="338" width="670" height="676" key="search.everywhere.popup" timestamp="1584636347714">
-      <screen x="0" y="23" width="2560" height="1378" />
-    </state>
-    <state x="372" y="338" width="670" height="676" key="search.everywhere.popup/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1584636347714" />
+    <state x="802" y="451" width="596" height="522" key="find.popup/0.23.2560.1382@0.23.2560.1382" timestamp="1599114376520" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/imooc_algo_bobo$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1584711869049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

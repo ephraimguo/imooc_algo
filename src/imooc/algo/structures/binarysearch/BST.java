@@ -22,6 +22,13 @@ public class BST <Key extends Comparable<Key>, Value>{
             this.right = null;
         }
 
+        public Node(Node node) {
+            this.key = node.key;
+            this.value = node.value;
+            this.left = node.left;
+            this.right = node.right;
+        }
+
     }
 
     public BST() {
@@ -53,7 +60,6 @@ public class BST <Key extends Comparable<Key>, Value>{
     public void preorderTraverse() {
         __preorder(root);
     }
-
     private void __preorder(Node root) {
         if (root != null) {
             System.out.println(root.key);
@@ -66,7 +72,6 @@ public class BST <Key extends Comparable<Key>, Value>{
     public void inorderTraverse() {
         __inorder(root);
     }
-
     private void __inorder(Node root) {
         if (root != null) {
             __inorder(root.left);
@@ -80,7 +85,6 @@ public class BST <Key extends Comparable<Key>, Value>{
     public void postorderTraverse(Node root) {
         __postorder(root);
     }
-
     private void __postorder(Node root) {
         if (root != null) {
             postorderTraverse(root.left);
@@ -110,7 +114,30 @@ public class BST <Key extends Comparable<Key>, Value>{
 
             }
         }
+    }
 
+    public Key minimum() {
+        assert (count != 0);
+        Node min = __min(root);
+        return min.key;
+    }
+
+    public Key maximum() {
+        assert (count != 0);
+        Node max = __max(root);
+        return max.key;
+    }
+
+    public void removeMin() {
+        root = __removeMin(root);
+    }
+
+    public void removeMax() {
+        root = __removeMax(root);
+    }
+
+    public void remove(Key key) {
+        root = __remove(root, key);
     }
 
     private Node __insert(Node node, Key key, Value value) {
@@ -171,6 +198,84 @@ public class BST <Key extends Comparable<Key>, Value>{
             return __search(node.right, key);
         }
 
+    }
+
+    private Node __min(Node node) {
+        if (node.left == null) {
+            return node;
+        }
+
+        return __min(node.left);
+    }
+
+    private Node __max(Node node){
+        if (node.right == null) {
+            return node;
+        }
+
+        return __min(node.right);
+    }
+
+    private Node __removeMin(Node node) {
+        if (node.left == null) {
+            return node.right;
+
+        }
+
+        node.left = __removeMin(node.left);
+        return node;
+    }
+
+    private Node __removeMax(Node node) {
+        if (node.right == null) {
+            return node.left;
+
+        }
+
+        node.right = __removeMax(node.right);
+        return node;
+    }
+
+    // delete the node of 'key'
+    // return the new root node
+    private Node __remove(Node node, Key key) {
+        if (node == null) {
+            return null;
+        }
+
+        if (key.compareTo(node.key) < 0) {
+            node.left = __remove(node.left, key);
+            return node;
+
+        } else if (key.compareTo(node.key) > 0) {
+            node.right = __remove(node.right, key);
+            return node;
+
+        } else { // key == node.key
+            // if left child is null
+            if (node.left == null) {
+                Node rightNode = node.right;
+                count--;
+                return rightNode;
+            }
+
+            // if right child is null
+            if (node.right == null) {
+                Node leftNode = node.right;
+                count--;
+                return leftNode;
+            }
+
+            Node delNode = node; // node going to be deleted
+            Node successor = new Node(__min(delNode.right)); // right child tree's minimum node
+            count++;
+
+            successor.right = __removeMin(node.right);
+            successor.left = node.left;
+            count--;
+
+            return successor;
+        }
     }
 
 }
