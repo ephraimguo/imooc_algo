@@ -1,6 +1,4 @@
-package imooc.algo.datastructure.LinkedList;
-
-import imooc.algo.datastructure.StackAndQueue.Queue;
+package imooc.algo.datastructure.StackAndQueue;
 
 public class LinkedListQueue<E> implements Queue<E> {
     private class Node {
@@ -66,7 +64,7 @@ public class LinkedListQueue<E> implements Queue<E> {
             tail = null;
         }
 
-        size--;
+        this.size--;
         return retNode.e;
     }
 

@@ -90,3 +90,28 @@ Done
 > It is so COOL now
 >
 > __head is the front of the queue, tail is the last of the tail__
+
+#### Enqueue operation
+- check if `tail == null`
+    - `tail = new Node` at this moment, there is no Node in the lise
+    - `head = tail`
+    
+  else 
+    - `tail.next = new Node(e)`
+    - tail = tail.next
+    
+  `size += 1` // maintain size
+ 
+ #### Dequeue operation
+```java
+public E dequeue() {
+    Node retNode = head;
+    head = head.next;
+    retNode.next = null;
+    if (head == null) { // if head is null, means there is no Node here 
+        tail = null;       
+    }
+    size --;
+    return retNode.e;
+}
+```

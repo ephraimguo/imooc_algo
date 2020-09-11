@@ -25,15 +25,30 @@ public class Main {
 //            }
 //        }
 
-        int opCount = 1000000;
+        LinkedListQueue<Integer> queue = new LinkedListQueue<>();
+        for (int i = 0; i < 10; i++) {
+            queue.enqueue(i);
+            System.out.println(queue);
+
+            if (i % 3 == 2) {
+                queue.dequeue();
+                System.out.println(queue);
+            }
+        }
+
+        int opCount = 100000;
         ArrayQueue<Integer> arrayQueue = new ArrayQueue<>();
         double timeArrQ = testQueue(arrayQueue, opCount);
 
         LoopQueue<Integer> loopQueue = new LoopQueue<>();
         double timeLooQ = testQueue(loopQueue, opCount);
 
-        System.out.println("ArrayQueue, time: " + timeArrQ + "s");
-        System.out.println("LoopQueue, time: " + timeLooQ);
+        LinkedListQueue<Integer> linkedListQueue = new LinkedListQueue<>();
+        double timellQ = testQueue(linkedListQueue, opCount);
+
+        System.out.println("ArrayQueue, time: " + timeArrQ + "ms");
+        System.out.println("LoopQueue, time: " + timeLooQ + "ms");
+        System.out.println("timellQ, time: " + timellQ + "ms");
 
     }
 
@@ -50,6 +65,6 @@ public class Main {
         }
 
         long end = System.currentTimeMillis();
-        return (end - start) / 1000000.0;
+        return (end - start);
     }
 }
