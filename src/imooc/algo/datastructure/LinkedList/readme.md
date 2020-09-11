@@ -71,3 +71,22 @@ Done
 > Delete the head element, O(1)
 >
 > Get the head element, O(1) 
+
+### Hey I want to use __LinkedList__ to implement a __Queue__
+> I will call it LinkedListQueue
+> 
+> At the moment, we have something like this.
+![linked-list-queue](./img/linked-list-queue.png)
+> But, to be honest, this structure does not support queue functionality very well due to a Queue is FIFO.
+>
+> Therefore, we need an additional variable to record the tail of the queue.
+> ![linked-list-with-tail](./img/linked-list-with-tail.png)
+> Now, in this queue, 
+>
+> add element to tail -> O(1)
+>
+> remove head elelment -> O(1)
+>
+> It is so COOL now
+>
+> __head is the front of the queue, tail is the last of the tail__
