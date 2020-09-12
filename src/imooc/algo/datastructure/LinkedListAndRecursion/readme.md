@@ -65,3 +65,5 @@ private static int sum(int[] arr, int l) {
 > recursive will consume stack memory
 >
 > recursive is good at handling  non-linear problems
+
+### How to debug a recursive Algorithm?

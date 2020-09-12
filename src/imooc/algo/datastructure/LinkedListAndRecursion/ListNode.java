@@ -26,7 +26,7 @@ public class ListNode {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("ListNode ").append("\nhead >|");
+        sb.append("ListNode ").append("head >|");
 
         for (ListNode cur = this; cur.next != null; cur = cur.next) {
             sb.append(cur.val).append("->");
