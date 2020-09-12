@@ -51,7 +51,7 @@ private static int sum(int[] arr, int l) {
         return head.val == val ? head.next : head;
 ```
 
-### I want to see more details of RECURSION...
+### I want to see more details of RECURSION
 ##### For the sum operation of array
 ![more-detail-recursion](./img/recursive-indetail-sum-of-array.png)
 > The recursive call is same as any other type of function call, just the function is sam as the current function
@@ -62,3 +62,5 @@ private static int sum(int[] arr, int l) {
 
 #### Let's recall the system stack again
 ![recall-system-stack](./img/recall-system-stack.png)
+> recursive will consume stack memory
+> recursive is good at handling  non-linear problems
