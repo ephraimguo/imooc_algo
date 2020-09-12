@@ -63,4 +63,5 @@ private static int sum(int[] arr, int l) {
 #### Let's recall the system stack again
 ![recall-system-stack](./img/recall-system-stack.png)
 > recursive will consume stack memory
+>
 > recursive is good at handling  non-linear problems
