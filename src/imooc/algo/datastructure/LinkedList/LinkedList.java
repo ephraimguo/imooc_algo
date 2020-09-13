@@ -60,6 +60,23 @@ public class LinkedList<E> {
         this.size++;
     }
 
+    // recursion add new element
+    public void add(int index, E e, char flag) {
+        if (index < 0 || index > this.size) {
+            throw new IllegalArgumentException("Fail to run add recursive, invalid index");
+        }
+        System.out.println(flag);
+        add(this.dummyHead, e, index, 0);
+    }
+
+    private void add(Node dummyHead, E e, int index, int position) {
+        if (index == position) {
+            dummyHead.next = new Node(e, dummyHead.next);
+        } else {
+            add(dummyHead.next, e, index, position + 1);
+        }
+    }
+
     public void addFirst(E e) {
         this.add(0, e);
     }

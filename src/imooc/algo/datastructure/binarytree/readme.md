@@ -86,11 +86,75 @@
 
 ##### BST Methods
 - `Add(Node node, E, e)`
+    
     - if node is __null__, then `root = new Node(e)`, then return
     - if `node.left == null && node.e > e` then `node.left = new Node(e)`
     - if `node.right == null && node.e < e` then `nod.right = new Node(e)`
     - Otherwise -> we will goto recursive steps
       - if `e < node.e` -> `add(node.left, e)`
       - else if `e > node.e` -> `add(node.right, e)`
+    
+- `PreOrderTraversal(Node root)`
+
+    - Traverse a bst in __node-left-right__ sequece(pre-order).
+
+    - Pre: root is the entry node of a tree or sub-tree
+
+        > **1.** **If (root is not null)**
+        >
+        > 1. **Process (root)**
+        > 2. **preOrder (root->leftsub-tree)**
+        > 3. **preOrder (root->rightsub-tree)**
+        >
+        > **2.** **End if**
+        >
+        > **3.** **Return**
+        >
+        > __END PREORDER__
+        >
+        > ![preorder-traversal](./img/preorder-traversal.png)
+        >
+        > Result: __A B D H E I J C F G__
+
+- `InOrderTraversal(Node root)`
+
+    - Traverse a bst in __left-root-right__ sequence(in-order)
+
+        > **1.** **If (root is not null)**
+        >
+        > 1. **inOrder (root->leftsub-tree)**
+        > 2. **Process (root)**
+        > 3. **inOrder (root->rightsub-tree)**
+        >
+        > **2.** **End if**
+        >
+        > **3.** **Return** **End inOrder**
+        >
+        > __END INORDER__
+        >
+        > ![inorder-traversal](./img/inorder-traversal.png)
+        >
+        > Result: __H D B I E J A F C G__
+
+- `PostOrderTraversal(Node root)`
+
+    - Traverse a bst in __left-right-root__ sequence(post-order)
+
+        > **1.** **If (root is not null)**
+        >
+        > 1. **postOrder (root->leftsub-tree)**
+        > 2. **postOrder (root->rightsub-tree)**
+        > 3. **Process (root)**
+        >
+        > **2.** **End if**
+        >
+        > **3.** **Return**
+        >
+        > **End postOrder**
+        >
+        > ![postorder-traversal](./img/postorder-traversal.png)
+        >
+        > Result: __H D I E J B F C G A__
 
  
+

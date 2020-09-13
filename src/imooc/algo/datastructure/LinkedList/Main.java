@@ -11,7 +11,7 @@ public class Main {
             System.out.println(linkedList);
         }
 
-        linkedList.add(2, 123);
+        linkedList.add(2, 123, 's');
         System.out.println(linkedList);
 
         linkedList.remove(2);
@@ -26,10 +26,10 @@ public class Main {
         System.out.println("-------------------------------------------");
 
         // stack test
-        ArrayStack<Integer> arrayStack = new ArrayStack<>();
-        LinkedListStack<Integer> listStack = new LinkedListStack<>();
-        System.out.println(testStack(arrayStack, 100000) + "ms");
-        System.out.println(testStack(listStack, 100000) + "ms");
+//        ArrayStack<Integer> arrayStack = new ArrayStack<>();
+//        LinkedListStack<Integer> listStack = new LinkedListStack<>();
+//        System.out.println(testStack(arrayStack, 100000) + "ms");
+//        System.out.println(testStack(listStack, 100000) + "ms");
     }
 
     public static double testStack(Stack<Integer> stack, int opCount) {
