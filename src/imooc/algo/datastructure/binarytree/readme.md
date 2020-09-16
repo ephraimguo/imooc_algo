@@ -30,7 +30,7 @@
 >
 > (P.S. binary tree is not exactly same as binary search tree, but most likely same lol)
 >
-> ![simple-tree](./img/simple-tree.png)
+> <img src="./img/simple-tree.png" alt="simple-tree" style="zoom:50%;" />
 >
 > - A binary tree is also a dynamic data structure, like LinkedList.
 > - In a Node of binary tree, it has two reference which are pointing left and right sub nodes respectively.
@@ -63,7 +63,7 @@
     - Every node's right sub-tree is a binary tree
     - BUT, a binary is not always "full"
         - Full binary tree: All __internal nodes (not leaf node)__ have exactly two children
-        ![full-b-tree](./img/full-binary-tree.png)
+        <img src="./img/full-binary-tree.png" alt="full-b-tree" style="zoom: 67%;" />
         - Otherwise, the binary tree is __NOT__ full
 
 ### Binary Search Tree
@@ -75,11 +75,11 @@
 > 
 > E.g: 
 >
-> ![bst](./img/binary-search-tree.png)
+> <img src="./img/binary-search-tree.png" alt="bst" style="zoom:50%;" />
 >
 > E.g:
 >
-> ![bst-2](./img/binary-search-tree-2.png)
+> <img src="./img/binary-search-tree-2.png" alt="bst-2" style="zoom: 67%;" />
 
 - Optimised for searching objective.
 - Values in nodes must be comparable.
@@ -156,5 +156,145 @@
         >
         > Result: __H D I E J B F C G A__
 
- 
+    - Post-order traversal can be used to release the memory of the bst.
 
+- Other type of traversal
+
+    > There are also __level order traversal__ of a binary tree. In accordance with the former figure, the traversal result will be: A B C D E F G H I J
+
+### Find the biggest / smallest value of BST
+
+- Biggest: the most left node
+- Smallest: the most right node
+
+### Remove the biggest / smallest Node 
+
+- From last point, we know the extreme values are same the most left / right values.
+
+- When removing the node, there are different senarios.
+
+  - if the node is a __leaf node__, just simply break the connection, it will be removed.
+
+  - if the node is __not__ a leaf node, there are problems.
+
+    <img src="./img/rm-smalles-val.png" alt="remove-smallest-val" style="zoom: 33%;" />
+
+    - Node 22 is going to be removed, so the right sub tree will replace the postion of 22, therefore, Node 33 will become the left child of Node 41
+
+    ```java
+        public E minimum() {
+            if (this.size == 0) {
+                throw new IllegalArgumentException("Fail to run minimum(), empty bst");
+            }
+    
+            return minimum(this.root).e;
+        }
+    
+        private Node minimum(Node node) {
+            if (node.left == null) {
+                return node;
+            }
+    
+            return minimum(node.left);
+        }
+    
+        public E maximum() {
+            return maximum(this.root).e;
+        }
+    
+        private Node maximum(Node node) {
+            if (node == null) {
+                return null;
+            }
+    
+            if (node.right == null) {
+                return node;
+            }
+    
+            return maximum(node.right);
+        }
+    
+        public E removeMin() {
+            E min = minimum();
+    
+            removeMin(this.root);
+    
+            return min;
+        }
+    
+        private Node removeMin(Node node) {
+            if (node.left == null) {
+                Node right = node.right;
+                node.right = null;
+                this.size--;
+                return right;
+            }
+    
+            node.left = removeMin(node.left);
+            return node;
+        }
+    
+        public E removeMax() {
+            E max = maximum();
+    
+            removeMax(this.root);
+    
+            return max;
+        }
+    
+        private Node removeMax(Node node) {
+            if (node.right == null) {
+                Node left = node.left;
+                node.left = null;
+                this.size--;
+                return left;
+            }
+    
+            node.right = removeMax(node.right);
+            return node;
+        }
+    ```
+
+
+
+### Remove a random node of BST
+
+> We have knowledge of removing the biggest / smallest node in BST, so now removing a random node is easier for us.
+
+Here we can dismentle the removing job to few different tasks.
+
+- Remove a node with __ONLY__ left / right child.
+
+  - ONLY have left child -> use its left child to replace the node
+
+  - ONLY have right child -> user its right child to replace the node
+
+    > This is similar with removing biggest / smallest value of BST
+
+- Remove a node with __BOTH__ left & right child, A.K.A. Hibbard Deletion
+
+  <img src="./img/bst-node-del-random-1.png" alt="delete-a-node-1" style="zoom:50%;" />
+
+  Let's say we are going to delete node 58.
+
+  Node 58 is removed, so now we need find another node to replace node 58. We are going to use next node greater than 58 to replace it.
+
+  It is the smaller node of node 58's right child.
+
+  In this case, it will be node 59
+
+  <img src="./img/bst-node-del-random-2.png" alt="bst-node-def-random-2" style="zoom:50%;" />
+
+  - remove node 59 from node 58 right child
+
+  - AND point node 41 right child to node 59
+
+  - point node 59 right child to node 60
+
+  - point node 59 left child to node 58 left child
+
+    <img src="/Users/ephraim/MyPlayGround/IntellijProj/imooc_algo_bobo/src/imooc/algo/datastructure/binarytree/img/bst-node-del-random-3.png" alt="bst-node-del-random-3" style="zoom:50%;" />
+
+  - Here we go
+
+    <img src="./img/bst-node-del-random-4.png" alt="bst-node-del-done" style="zoom:50%;" />
