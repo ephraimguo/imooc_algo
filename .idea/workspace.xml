@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="426d61e7-b081-4be1-90f8-2b5f4bbc4dbc" name="Default Changelist" comment="BST">
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/self/algo/leetcode/Leetcode_141_Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/self/algo/practise/MyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/self/algo/leetcode/Leetcode_141_Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/self/algo/leetcode/Leetcode_141_Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +85,7 @@
       <recent name="$PROJECT_DIR$/src/imooc/algo/structures/binarysearch" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyLinkedList">
+  <component name="RunManager" selected="Application.Leetcode_141_Solution">
     <configuration name="LeetCodeSolution_3_203" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="imooc.algo.datastructure.LinkedListAndRecursion.LeetCodeSolution_3_203" />
       <module name="imooc_algo_bobo" />
@@ -179,8 +177,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyLinkedList" />
         <item itemvalue="Application.Leetcode_141_Solution" />
+        <item itemvalue="Application.MyLinkedList" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.LeetCodeSolution_3_203" />
@@ -209,7 +207,7 @@
       <workItem from="1598711794167" duration="10371000" />
       <workItem from="1598972815890" duration="5386000" />
       <workItem from="1599066387611" duration="58758000" />
-      <workItem from="1600009980388" duration="25342000" />
+      <workItem from="1600009980388" duration="26177000" />
     </task>
     <task id="LOCAL-00001" summary="[MS] Insertion sort and selection sort cleared">
       <created>1584382267389</created>
@@ -316,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600237020138</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="self practise">
+      <created>1600262562848</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1600262562848</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +354,8 @@
     <MESSAGE value="BST" />
     <MESSAGE value="traversal" />
     <MESSAGE value="done with bst basic operation" />
-    <option name="LAST_COMMIT_MESSAGE" value="done with bst basic operation" />
+    <MESSAGE value="self practise" />
+    <option name="LAST_COMMIT_MESSAGE" value="self practise" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1665" y="416" key="#com.intellij.ide.util.MemberChooser" timestamp="1599800205361">
@@ -434,12 +440,12 @@
       <screen x="0" y="23" width="2880" height="1562" />
     </state>
     <state x="566" y="266" width="1763" height="1086" key="SettingsEditor/0.23.2880.1562@0.23.2880.1562" timestamp="1600251482390" />
-    <state x="1437" y="437" key="Vcs.Push.Dialog.v2" timestamp="1600237024503">
+    <state x="1437" y="437" key="Vcs.Push.Dialog.v2" timestamp="1600262564823">
       <screen x="0" y="23" width="2880" height="1562" />
     </state>
     <state x="1437" y="437" key="Vcs.Push.Dialog.v2/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1600011347101" />
     <state x="1277" y="389" key="Vcs.Push.Dialog.v2/0.23.2560.1382@0.23.2560.1382" timestamp="1599835588589" />
-    <state x="1437" y="437" key="Vcs.Push.Dialog.v2/0.23.2880.1562@0.23.2880.1562" timestamp="1600237024503" />
+    <state x="1437" y="437" key="Vcs.Push.Dialog.v2/0.23.2880.1562@0.23.2880.1562" timestamp="1600262564823" />
     <state x="802" y="451" width="596" height="522" key="find.popup" timestamp="1599114376520">
       <screen x="0" y="23" width="2560" height="1382" />
     </state>

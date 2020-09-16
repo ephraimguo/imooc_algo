@@ -1,5 +1,6 @@
 package self.algo.leetcode;
 
+import java.util.HashSet;
 import java.util.Set;
 
 public class Leetcode_141_Solution {
@@ -18,42 +19,22 @@ public class Leetcode_141_Solution {
         }
     }
 
-    public ListNode findTail(ListNode node, ListNode cur) {
-        if (node == null) {
-            return null;
-        }
-
-        if (node.next == null) {
-            return null;
-        }
-
-        if (node.next.val == cur.val) {
-            System.out.println("found!");
-            return node;
-        }
-
-        return findTail(node.next, cur);
-    }
-
     public boolean hasCycle(ListNode head) {
-        if (head == null) {
+        if (head == null || head.next == null) {
             return false;
         }
 
-        ListNode cur = head;
-        ListNode tail = null;
-        while (cur.next != null) {
-            tail = findTail(cur, cur);
-            if (tail == null) {
-                return false;
-            }
-
-            if (cur.val == tail.val) {
+        Set<ListNode> nodeSet = new HashSet<>();
+        while (head.next != null) {
+            if (nodeSet.contains(head.next)) {
                 return true;
+            } else {
+                nodeSet.add(head.next);
             }
 
-            cur = cur.next;
+            head = head.next;
         }
+
         return false;
     }
 
@@ -63,8 +44,5 @@ public class Leetcode_141_Solution {
         head.next.next = new ListNode(0);
         head.next.next.next = new ListNode(4);
         head.next.next.next.next = head.next;
-
-        System.out.println(new Leetcode_141_Solution().findTail(head, head));
-
     }
 }
