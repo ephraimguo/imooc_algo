@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="426d61e7-b081-4be1-90f8-2b5f4bbc4dbc" name="Default Changelist" comment="BST">
+      <change afterPath="$PROJECT_DIR$/src/self/algo/leetcode/Leetcode_783_Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imooc/algo/datastructure/binarytree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/binarytree/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc/algo/datastructure/binarytree/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/binarytree/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +208,7 @@
       <workItem from="1598711794167" duration="10371000" />
       <workItem from="1598972815890" duration="5386000" />
       <workItem from="1599066387611" duration="58758000" />
-      <workItem from="1600009980388" duration="27150000" />
+      <workItem from="1600009980388" duration="29698000" />
     </task>
     <task id="LOCAL-00001" summary="[MS] Insertion sort and selection sort cleared">
       <created>1584382267389</created>
@@ -328,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600263620372</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="BST: remove random node from bst">
+      <created>1600265110490</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1600265110490</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +371,8 @@
     <MESSAGE value="done with bst basic operation" />
     <MESSAGE value="self practise" />
     <MESSAGE value="leet code 141" />
-    <option name="LAST_COMMIT_MESSAGE" value="leet code 141" />
+    <MESSAGE value="BST: remove random node from bst" />
+    <option name="LAST_COMMIT_MESSAGE" value="BST: remove random node from bst" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1665" y="416" key="#com.intellij.ide.util.MemberChooser" timestamp="1599800205361">
@@ -448,12 +457,12 @@
       <screen x="0" y="23" width="2880" height="1562" />
     </state>
     <state x="566" y="266" width="1763" height="1086" key="SettingsEditor/0.23.2880.1562@0.23.2880.1562" timestamp="1600251482390" />
-    <state x="1437" y="437" key="Vcs.Push.Dialog.v2" timestamp="1600263621872">
+    <state x="1437" y="437" key="Vcs.Push.Dialog.v2" timestamp="1600265152233">
       <screen x="0" y="23" width="2880" height="1562" />
     </state>
     <state x="1437" y="437" key="Vcs.Push.Dialog.v2/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1600011347101" />
     <state x="1277" y="389" key="Vcs.Push.Dialog.v2/0.23.2560.1382@0.23.2560.1382" timestamp="1599835588589" />
-    <state x="1437" y="437" key="Vcs.Push.Dialog.v2/0.23.2880.1562@0.23.2880.1562" timestamp="1600263621872" />
+    <state x="1437" y="437" key="Vcs.Push.Dialog.v2/0.23.2880.1562@0.23.2880.1562" timestamp="1600265152233" />
     <state x="802" y="451" width="596" height="522" key="find.popup" timestamp="1599114376520">
       <screen x="0" y="23" width="2560" height="1382" />
     </state>

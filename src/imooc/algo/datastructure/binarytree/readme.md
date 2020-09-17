@@ -63,7 +63,10 @@
     - Every node's right sub-tree is a binary tree
     - BUT, a binary is not always "full"
         - Full binary tree: All __internal nodes (not leaf node)__ have exactly two children
-        <img src="./img/full-binary-tree.png" alt="full-b-tree" style="zoom: 67%;" />
+          <img src="./img/full-binary-tree.png" alt="full-b-tree" style="zoom: 67%;" />
+        
+          
+        
         - Otherwise, the binary tree is __NOT__ full
 
 ### Binary Search Tree
@@ -293,7 +296,7 @@ Here we can dismentle the removing job to few different tasks.
 
   - point node 59 left child to node 58 left child
 
-    <img src="/Users/ephraim/MyPlayGround/IntellijProj/imooc_algo_bobo/src/imooc/algo/datastructure/binarytree/img/bst-node-del-random-3.png" alt="bst-node-del-random-3" style="zoom:50%;" />
+    <img src="./img/bst-node-del-random-3.png" alt="bst-node-del-random-3" style="zoom:50%;" />
 
   - Here we go
 
