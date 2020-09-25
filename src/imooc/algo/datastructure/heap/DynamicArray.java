@@ -150,7 +150,7 @@ public class DynamicArray<E> {
         }
     }
 
-    // swap postion
+    // swap position
     public void swap(int i, int j) {
         if (i < 0 || i >= this.size || j < 0 || j >= this.size) {
             throw new IllegalArgumentException("Invalid index");
