@@ -20,14 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="426d61e7-b081-4be1-90f8-2b5f4bbc4dbc" name="Default Changelist" comment="BST">
-      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/heap/DynamicArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/heap/MaxHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/setnmap/BSTMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/setnmap/LinkedListMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/setnmap/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/self/algo/leetcode/Leetcode_349_Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/AVLTree/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/AVLTree/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/heap/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/self/algo/leetcode/Leetcode_347_Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/self/algo/leetcode/Leetcode_70_Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imooc/algo/datastructure/setnmap/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/setnmap/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc/algo/datastructure/heap/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/heap/DynamicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc/algo/datastructure/heap/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/algo/datastructure/heap/MaxHeap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,11 +79,11 @@
       <recent name="$PROJECT_DIR$/src/imooc/algo/structures/binarysearch" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="imooc.algo.datastructure.AVLTree" />
       <recent name="imooc.algo.datastructure.heap" />
       <recent name="imooc.algo.datastructure.setnmap" />
       <recent name="imooc.algo.datastructure.LinkedListAndRecursion" />
       <recent name="imooc.algo.datastructure.StackAndQueue" />
-      <recent name="imooc.algo.datastructure.LinkedList" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/imooc/algo/datastructure/binarytree/img" />
@@ -93,7 +93,7 @@
       <recent name="$PROJECT_DIR$/src/imooc/algo/datastructure/StackAndQueue" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode_349_Solution">
+  <component name="RunManager" selected="Application.Leetcode_70_Solution">
     <configuration name="Leetcode_141_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="self.algo.leetcode.Leetcode_141_Solution" />
       <module name="imooc_algo_bobo" />
@@ -120,12 +120,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imooc.algo.datastructure.binarytree.Main" />
+    <configuration name="Leetcode_70_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="self.algo.leetcode.Leetcode_70_Solution" />
       <module name="imooc_algo_bobo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="imooc.algo.datastructure.binarytree.*" />
+          <option name="PATTERN" value="self.algo.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="imooc.algo.datastructure.heap.Main" />
+      <module name="imooc_algo_bobo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="imooc.algo.datastructure.heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,19 +152,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="imooc.algo.datastructure.StackAndQueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="self.algo.practise.MyLinkedList" />
-      <module name="imooc_algo_bobo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="self.algo.practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode_70_Solution" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Leetcode_349_Solution" />
         <item itemvalue="Application.TestAnonymousInnerClass" />
         <item itemvalue="Application.Leetcode_141_Solution" />
-        <item itemvalue="Application.MyLinkedList" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +217,7 @@
       <workItem from="1599066387611" duration="58758000" />
       <workItem from="1600009980388" duration="30090000" />
       <workItem from="1600400012078" duration="298000" />
-      <workItem from="1600400329559" duration="21386000" />
+      <workItem from="1600400329559" duration="32032000" />
     </task>
     <task id="LOCAL-00001" summary="[MS] Insertion sort and selection sort cleared">
       <created>1584382267389</created>
@@ -366,7 +366,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600785132356</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="MaxHeap shiftUp">
+      <created>1601046828584</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1601046828584</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add file">
+      <created>1601047688862</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1601047688862</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,14 +419,16 @@
     <MESSAGE value="test advance" />
     <MESSAGE value="test push 1" />
     <MESSAGE value="LinkedList set and BST set are done" />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkedList set and BST set are done" />
+    <MESSAGE value="MaxHeap shiftUp" />
+    <MESSAGE value="add file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add file" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1873" y="467" key="#com.intellij.ide.util.MemberChooser" timestamp="1600787576722">
+    <state x="1873" y="467" key="#com.intellij.ide.util.MemberChooser" timestamp="1601098354367">
       <screen x="0" y="23" width="2880" height="1562" />
     </state>
     <state x="1665" y="416" key="#com.intellij.ide.util.MemberChooser/-1920.209.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598725131213" />
-    <state x="1873" y="467" key="#com.intellij.ide.util.MemberChooser/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1600787576722" />
+    <state x="1873" y="467" key="#com.intellij.ide.util.MemberChooser/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1601098354367" />
     <state x="1665" y="416" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1382@0.23.2560.1382" timestamp="1599800205361" />
     <state x="1726" y="511" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600399870412">
       <screen x="0" y="23" width="2880" height="1562" />
@@ -424,84 +440,88 @@
     </state>
     <state x="1814" y="524" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1599985397587" />
     <state x="1612" y="466" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1382@0.23.2560.1382" timestamp="1599406736408" />
-    <state width="412" height="1399" key="GridCell.Tab.0.bottom" timestamp="1600882312622">
+    <state width="937" height="1399" key="GridCell.Tab.0.bottom" timestamp="1601104387737">
       <screen x="0" y="23" width="2880" height="1562" />
     </state>
     <state width="1720" height="320" key="GridCell.Tab.0.bottom/-1920.206.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598977782021" />
     <state width="1386" height="333" key="GridCell.Tab.0.bottom/-1920.209.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598725487176" />
-    <state width="412" height="1399" key="GridCell.Tab.0.bottom/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1600882312622" />
+    <state width="937" height="1399" key="GridCell.Tab.0.bottom/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1601104387737" />
     <state width="1396" height="432" key="GridCell.Tab.0.bottom/0.23.2560.1382@0.23.2560.1382" timestamp="1599818540469" />
     <state width="497" height="1399" key="GridCell.Tab.0.bottom/0.23.2880.1562@0.23.2880.1562" timestamp="1600401490165" />
-    <state width="412" height="1399" key="GridCell.Tab.0.center" timestamp="1600882312621">
+    <state width="937" height="1399" key="GridCell.Tab.0.center" timestamp="1601104387736">
       <screen x="0" y="23" width="2880" height="1562" />
     </state>
     <state width="1720" height="320" key="GridCell.Tab.0.center/-1920.206.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598977782020" />
     <state width="1386" height="333" key="GridCell.Tab.0.center/-1920.209.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598725487175" />
-    <state width="412" height="1399" key="GridCell.Tab.0.center/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1600882312621" />
+    <state width="937" height="1399" key="GridCell.Tab.0.center/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1601104387736" />
     <state width="1396" height="432" key="GridCell.Tab.0.center/0.23.2560.1382@0.23.2560.1382" timestamp="1599818540469" />
     <state width="497" height="1399" key="GridCell.Tab.0.center/0.23.2880.1562@0.23.2880.1562" timestamp="1600401490164" />
-    <state width="412" height="1399" key="GridCell.Tab.0.left" timestamp="1600882312621">
+    <state width="937" height="1399" key="GridCell.Tab.0.left" timestamp="1601104387735">
       <screen x="0" y="23" width="2880" height="1562" />
     </state>
     <state width="1720" height="320" key="GridCell.Tab.0.left/-1920.206.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598977782020" />
     <state width="1386" height="333" key="GridCell.Tab.0.left/-1920.209.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598725487174" />
-    <state width="412" height="1399" key="GridCell.Tab.0.left/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1600882312621" />
+    <state width="937" height="1399" key="GridCell.Tab.0.left/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1601104387735" />
     <state width="1396" height="432" key="GridCell.Tab.0.left/0.23.2560.1382@0.23.2560.1382" timestamp="1599818540468" />
     <state width="497" height="1399" key="GridCell.Tab.0.left/0.23.2880.1562@0.23.2880.1562" timestamp="1600401490164" />
-    <state width="412" height="1399" key="GridCell.Tab.0.right" timestamp="1600882312621">
+    <state width="937" height="1399" key="GridCell.Tab.0.right" timestamp="1601104387737">
       <screen x="0" y="23" width="2880" height="1562" />
     </state>
     <state width="1720" height="320" key="GridCell.Tab.0.right/-1920.206.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598977782020" />
     <state width="1386" height="333" key="GridCell.Tab.0.right/-1920.209.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598725487176" />
-    <state width="412" height="1399" key="GridCell.Tab.0.right/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1600882312621" />
+    <state width="937" height="1399" key="GridCell.Tab.0.right/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1601104387737" />
     <state width="1396" height="432" key="GridCell.Tab.0.right/0.23.2560.1382@0.23.2560.1382" timestamp="1599818540469" />
     <state width="497" height="1399" key="GridCell.Tab.0.right/0.23.2880.1562@0.23.2880.1562" timestamp="1600401490165" />
-    <state width="1303" height="328" key="GridCell.Tab.1.bottom" timestamp="1600399966911">
+    <state width="2413" height="328" key="GridCell.Tab.1.bottom" timestamp="1601051451401">
       <screen x="0" y="23" width="2880" height="1562" />
     </state>
     <state width="1720" height="320" key="GridCell.Tab.1.bottom/-1920.206.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598977781882" />
     <state width="1373" height="320" key="GridCell.Tab.1.bottom/-1920.209.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598716250362" />
-    <state width="1327" height="283" key="GridCell.Tab.1.bottom/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1600009958657" />
+    <state width="2413" height="328" key="GridCell.Tab.1.bottom/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1601051451401" />
     <state width="1327" height="283" key="GridCell.Tab.1.bottom/0.23.2560.1382@0.23.2560.1382" timestamp="1599817389425" />
     <state width="1303" height="328" key="GridCell.Tab.1.bottom/0.23.2880.1562@0.23.2880.1562" timestamp="1600399966911" />
-    <state width="1303" height="328" key="GridCell.Tab.1.center" timestamp="1600399966910">
+    <state width="2413" height="328" key="GridCell.Tab.1.center" timestamp="1601051451401">
       <screen x="0" y="23" width="2880" height="1562" />
     </state>
     <state width="1720" height="320" key="GridCell.Tab.1.center/-1920.206.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598977781882" />
     <state width="1373" height="320" key="GridCell.Tab.1.center/-1920.209.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598716250361" />
-    <state width="1327" height="283" key="GridCell.Tab.1.center/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1600009958656" />
+    <state width="2413" height="328" key="GridCell.Tab.1.center/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1601051451401" />
     <state width="1327" height="283" key="GridCell.Tab.1.center/0.23.2560.1382@0.23.2560.1382" timestamp="1599817389424" />
     <state width="1303" height="328" key="GridCell.Tab.1.center/0.23.2880.1562@0.23.2880.1562" timestamp="1600399966910" />
-    <state width="1303" height="328" key="GridCell.Tab.1.left" timestamp="1600399966910">
+    <state width="2413" height="328" key="GridCell.Tab.1.left" timestamp="1601051451401">
       <screen x="0" y="23" width="2880" height="1562" />
     </state>
     <state width="1720" height="320" key="GridCell.Tab.1.left/-1920.206.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598977781881" />
     <state width="1373" height="320" key="GridCell.Tab.1.left/-1920.209.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598716250361" />
-    <state width="1327" height="283" key="GridCell.Tab.1.left/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1600009958655" />
+    <state width="2413" height="328" key="GridCell.Tab.1.left/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1601051451401" />
     <state width="1327" height="283" key="GridCell.Tab.1.left/0.23.2560.1382@0.23.2560.1382" timestamp="1599817389424" />
     <state width="1303" height="328" key="GridCell.Tab.1.left/0.23.2880.1562@0.23.2880.1562" timestamp="1600399966910" />
-    <state width="1303" height="328" key="GridCell.Tab.1.right" timestamp="1600399966911">
+    <state width="2413" height="328" key="GridCell.Tab.1.right" timestamp="1601051451401">
       <screen x="0" y="23" width="2880" height="1562" />
     </state>
     <state width="1720" height="320" key="GridCell.Tab.1.right/-1920.206.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598977781882" />
     <state width="1373" height="320" key="GridCell.Tab.1.right/-1920.209.1920.1057/0.23.2560.1382@0.23.2560.1382" timestamp="1598716250362" />
-    <state width="1327" height="283" key="GridCell.Tab.1.right/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1600009958656" />
+    <state width="2413" height="328" key="GridCell.Tab.1.right/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1601051451401" />
     <state width="1327" height="283" key="GridCell.Tab.1.right/0.23.2560.1382@0.23.2560.1382" timestamp="1599817389425" />
     <state width="1303" height="328" key="GridCell.Tab.1.right/0.23.2880.1562@0.23.2880.1562" timestamp="1600399966911" />
     <state x="566" y="266" width="1763" height="1086" key="SettingsEditor" timestamp="1600399865951">
       <screen x="0" y="23" width="2880" height="1562" />
     </state>
     <state x="566" y="266" width="1763" height="1086" key="SettingsEditor/0.23.2880.1562@0.23.2880.1562" timestamp="1600399865951" />
-    <state x="1437" y="437" key="Vcs.Push.Dialog.v2" timestamp="1600785134225">
+    <state x="1437" y="437" key="Vcs.Push.Dialog.v2" timestamp="1601047690431">
       <screen x="0" y="23" width="2880" height="1562" />
     </state>
-    <state x="1437" y="437" key="Vcs.Push.Dialog.v2/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1600785134225" />
+    <state x="1437" y="437" key="Vcs.Push.Dialog.v2/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1601047690431" />
     <state x="1277" y="389" key="Vcs.Push.Dialog.v2/0.23.2560.1382@0.23.2560.1382" timestamp="1599835588589" />
     <state x="1437" y="437" key="Vcs.Push.Dialog.v2/0.23.2880.1562@0.23.2880.1562" timestamp="1600368673925" />
     <state x="1145" y="720" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600695716636">
       <screen x="0" y="23" width="2880" height="1562" />
     </state>
     <state x="1145" y="720" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1600695716636" />
+    <state x="828" y="464" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1601051607283">
+      <screen x="0" y="23" width="2880" height="1562" />
+    </state>
+    <state x="828" y="464" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1601051607283" />
     <state x="802" y="451" width="596" height="522" key="find.popup" timestamp="1599114376520">
       <screen x="0" y="23" width="2560" height="1382" />
     </state>
@@ -510,6 +530,16 @@
       <screen x="0" y="23" width="2880" height="1562" />
     </state>
     <state x="998" y="576" key="refactoring.ChangeSignatureDialog/-1920.298.1920.1057/0.23.2880.1562@0.23.2880.1562" timestamp="1600696963569" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayStoreException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/imooc_algo_bobo$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1584711869049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

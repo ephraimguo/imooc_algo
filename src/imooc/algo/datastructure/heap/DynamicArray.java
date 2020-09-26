@@ -14,6 +14,14 @@ public class DynamicArray<E> {
         this.size = 0;
     }
 
+    public DynamicArray(E[] arr) {
+        this.data = (E[]) new Object[arr.length];
+        for (int i = 0; i < arr.length; i++) {
+            data[i] = arr[i];
+        }
+        this.size = arr.length;
+    }
+
     // default constructor
     public DynamicArray() {
         this(10);
@@ -120,8 +128,8 @@ public class DynamicArray<E> {
 
         E removee = data[index];
 
-        for (int i = index; i < size; i++) {
-            data[i] = data[i + 1];
+        for (int i = index + 1; i < size; i++) {
+            data[i - 1] = data[i];
         }
 
         if (this.size == this.data.length / 4) {
